@@ -1,0 +1,1 @@
+Esta landing page va a ser un Kiosko online 100% interactivo, en el cual vas a poder comprar todo lo que nesecites de una tienda de alimentos.

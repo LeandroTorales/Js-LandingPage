@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./mediaQuerys.css" />
+    <title>Kiosko Interactivo</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <span class="logo__navbar">KIOSKO</span>
+      </a>
+
+      <nav class="active__burguer navbar">
+        <a href="#" class="home__navbar"
+          ><i class="fa-solid fa-house icon__home"><span>Home</span></i></a
+        >
+        <a href="#">Categorias</a>
+        <a href="#">Golosinas</a>
+        <a href="#">Bebidas</a>
+        <a href="#">Contacto</a>
+        <a href="#">Registrarse</a>
+        <a href="#">Iniciar Sesión</a>
+      </nav>
+      <button class="button__cart">
+        <i class="fa-solid fa-cart-shopping icon__cart"></i>
+        <div class="cart__bubbleCount"></div>
+      </button>
+      <button class="button__burguer">
+        <i class="fa-solid fa-bars bars__navbar--hamburgesa"></i>
+      </button>
+    </header>
+    <div class="onBlur"></div>
+  </body>
+  <script src="./index.js"></script>
 </html>
